@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_graph"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:menuCategory="secondary"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/notification_graph"
+            android:menuCategory="secondary"
+            android:icon="@drawable/ic_baseline_circle_notifications_24"
+            android:title="@string/notification" />
+
+        <item
+            android:id="@+id/setting_graph"
+            android:menuCategory="secondary"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/setting" />
+
+
+        <item android:title="info"
+            android:menuCategory="system">
+            <menu>
+                <item
+                    android:id="@+id/aboutAppFragment"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:iconTint="@color/black"
+                    android:title="@string/about_app" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/setting_graph"
+        android:title="@string/setting"
+        android:menuCategory="secondary"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/item_about_app"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="@string/about_app"
+        app:showAsAction="ifRoom" />
+
+    <item android:title="info"
+        android:menuCategory="system"
+        android:iconTint="@color/black">
+        <menu>
+            <item
+                android:id="@+id/aboutAppFragment"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:iconTint="@color/black"
+                android:title="@string/about_app" />
+
+            <item
+                android:id="@id/setting_graph"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:iconTint="@color/black"
+                android:title="@string/setting" />
+
+            <item
+                android:icon="@drawable/ic_baseline_info_24"
+                android:iconTint="@color/black"
+                android:title="@string/about_app" />
+        </menu>
+    </item>
+</menu>
